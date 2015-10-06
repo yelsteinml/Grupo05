@@ -1,9 +1,19 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
+a=float(input("ingrese nota: "))
+b=float(input("ingrese nota: "))
+c=float(input("ingrese nota: "))
 
-__author__ = "Alumno"
-__date__ = "$30/09/2015 09:34:28 AM$"
+x=(a+b+c)/3
 
-if __name__ == "__main__":
-    print "Hola Mundo"
+print x
+
+if(x<=20 and x>16 ):
+    print "alumno muy bueno"
+else:
+    if(x<=16 and x>=14):
+        print "alumno bueno"
+    else:
+        if(x<=13 and x>=11):
+         print "alumno regular "
+        else:
+         print "alumno malo"
+            
